@@ -1,0 +1,84 @@
+name: life2film
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^0.1.2
+  http: "^0.11.3+16"
+  camera: any
+  path_provider: ^0.4.1
+  
+  collection: 1.14.11
+  device_info: 0.2.1
+  intl: 0.15.7
+  connectivity: 0.3.2
+  string_scanner: 1.0.4
+  url_launcher: 4.0.1
+  
+  video_player: 0.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - images/1.jpg
+    - images/2.jpg
+    - images/3.jpg
+    - images/4.jpg
+    - images/5.jpg
+    - images/6.jpg
+    - images/p1.jpg
+    - images/p2.jpg
+    - images/p3.jpg
+    - images/p4.jpg
+    - images/p5.jpg
+    - images/user_1.jpg
+    - images/user_2.jpg
+    - images/user_3.jpg
+    - images/user_4.jpg
+    - images/user_5.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
